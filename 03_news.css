@@ -1,0 +1,41 @@
+.news .channel{
+    background-color: skyblue;
+    width: 260px;
+    height: 170px;
+    padding: 5px;
+}
+.news .channel .item{
+    height: 85px;
+    width: 130px;
+    float: left;
+    text-align: center;
+}
+.news .channel .item a{
+    display: inline-block;
+    font-size: 18px;
+    padding-top: 10px;
+    color: hotpink;
+    text-decoration: none;
+    opacity:0.5
+}
+.news .channel .item a:hover{
+    opacity: 1;
+}
+.news .channel .item img{
+    height: 40px;
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+.left{
+    float: left;
+}
+.news .list_item{
+    background-color: orange;
+    width:405px;
+    height: 180px;
+}
+.news{
+    margin-top: 5px;
+}
